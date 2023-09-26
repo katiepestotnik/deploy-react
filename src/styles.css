@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(30, 30, 115);
+}
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+.link {
+    margin: 10px;
+    padding: 5px;
+}
+.mini {
+    display: flex;
+    justify-content: space-between;
+}
+.mini > a {
+    margin-left: 20px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+.img-box {
+    height: 300px;
+    width: 300px;
+    margin: 50px auto;
+}
+h1{
+    text-align: center;
+}

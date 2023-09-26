@@ -6,16 +6,20 @@
 4. Configure personal info on Netlify and continue to deploy ![config](./assests/config.png)
 5. Select deploy with GitHub ![deploy GitHub](./assests/deploy-github.png)
 6. Authorize Netlify to use GitHub<br> ![auth-netlify](./assests/auth-netlify.png)
-7. Select all repositories and install ![install](./assests/install.png)
+7. Select all repositories and install<br> ![install](./assests/install.png)
 8. Select your project repo ![select-repo](./assests/select-repo.png)
-9. Deploy repo! ![deploy](./assests/deploy-repo.png)
+9. Deploy repo!<br> ![deploy](./assests/deploy-repo.png)
+10. Add a netlify.toml to handle redirect errors when user refreshes page
+<br><br><br>
+
+## Want to use a Favicon?
 
 [Find a favicon here!](https://favicon.io/)
 - Find an icon and download
 - Open zip file and select favicon.ico
 - Drag and replace react favicon with your own
 - That's it! Test that it is working :smile:
-    - You must have the manifest.json
+    - You must have the manifest.json ![manifest](./assests/manifest.png)
     - Keep these two lines in public/index.html
         - ![link tags](./assests/link-tags.png)
 - If your favicon isn't working compare this repo to yours and make sure you have all of the above

@@ -1,7 +1,17 @@
+import {Routes, Route} from 'react-router-dom'
+import Main from './pages/Main'
+import Klondike from './pages/Klondike';
+import Missy from './pages/Missy';
+
+import './styles.css'
 function App() {
   return (
     <div className="App">
-      <h1>Deployed React App</h1>
+      <Routes>
+        <Route path='/' element={<Main />} />
+        <Route path='/missy' element={<Missy/> } />
+        <Route path='/klondike' element={<Klondike/> } />
+      </Routes>
     </div>
   );
 }
