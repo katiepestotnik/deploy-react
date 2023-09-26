@@ -1,9 +1,14 @@
 # Deploy React Frontend
 
 1. Sign up for a Netlify account here [Netlify](https://www.netlify.com/)
-2. Sign up using GitHub - personal GitHub NOT enterprise
-3. 
-
+2. Sign up using GitHub - personal GitHub NOT enterprise ![github](./assests/use-github.png)
+3. Authorize Netlify to access your GitHub repos ![authorize](./assests/authorize.png)
+4. Configure personal info on Netlify and continue to deploy ![config](./assests/config.png)
+5. Select deploy with GitHub ![deploy GitHub](./assests/deploy-github.png)
+6. Authorize Netlify to use GitHub<br> ![auth-netlify](./assests/auth-netlify.png)
+7. Select all repositories and install ![install](./assests/install.png)
+8. Select your project repo ![select-repo](./assests/select-repo.png)
+9. Deploy repo! ![deploy](./assests/deploy-repo.png)
 
 [Find a favicon here!](https://favicon.io/)
 - Find an icon and download
@@ -12,5 +17,5 @@
 - That's it! Test that it is working :smile:
     - You must have the manifest.json
     - Keep these two lines in public/index.html
-        - ![link tags](link-tags.png)
+        - ![link tags](./assests/link-tags.png)
 - If your favicon isn't working compare this repo to yours and make sure you have all of the above
