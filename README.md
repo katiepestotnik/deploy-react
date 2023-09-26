@@ -9,7 +9,7 @@
 7. Select all repositories and install<br> ![install](./assests/install.png)
 8. Select your project repo ![select-repo](./assests/select-repo.png)
 9. Deploy repo!<br> ![deploy](./assests/deploy-repo.png)
-10. Add a netlify.toml to handle redirect errors when user refreshes page
+10. Add a netlify.toml at the top level (where package.json lives) to handle redirect errors when user refreshes the page<br> ![netlify.toml](./assests/netlify-toml.png)
 <br><br><br>
 
 ## Want to use a Favicon?
