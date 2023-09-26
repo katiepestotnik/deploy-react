@@ -1,4 +1,5 @@
 # Deploy React Frontend
+## [Live Link](https://missy-klondike.netlify.app/)
 
 1. Sign up for a Netlify account here [Netlify](https://www.netlify.com/)
 2. Sign up using GitHub - personal GitHub NOT enterprise ![github](./assests/use-github.png)
@@ -10,6 +11,8 @@
 8. Select your project repo ![select-repo](./assests/select-repo.png)
 9. Deploy repo!<br> ![deploy](./assests/deploy-repo.png)
 10. Add a netlify.toml at the top level (where package.json lives) to handle redirect errors when user refreshes the page<br> ![netlify.toml](./assests/netlify-toml.png)
+11. Go to deploy settting to change the domain management to change domain name ![domain name](./assests/domain-name.png)
+12. Add your live link to your README
 <br><br><br>
 
 ## Want to use a Favicon?
