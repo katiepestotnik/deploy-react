@@ -10,8 +10,10 @@
 7. Select all repositories and install<br> ![install](./assests/install.png)
 8. Select your project repo ![select-repo](./assests/select-repo.png)
 9. Deploy repo!<br> ![deploy](./assests/deploy-repo.png)
-10. Add a netlify.toml at the top level (where package.json lives) to handle redirect errors when user refreshes the page<br> ![netlify.toml](./assests/netlify-toml.png)
 11. Go to deploy settting to change the domain management to change domain name ![domain name](./assests/domain-name.png)
+10. Add a netlify.toml at the top level (where package.json lives) to handle redirect errors when user refreshes the page. Use your own live link.<br> ![netlify.toml](./assests/redirects.png)
+    - There are many ways to handle redirects and to get much fancier. Check out the documentation!
+    - [Redirect Documentation](https://docs.netlify.com/routing/redirects/)
 12. Add your live link to your README
 <br><br><br>
 
