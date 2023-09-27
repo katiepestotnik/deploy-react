@@ -10,6 +10,7 @@
 7. Select all repositories and install<br> ![install](./assests/install.png)
 8. Select your project repo ![select-repo](./assests/select-repo.png)
 9. Deploy repo!<br> ![deploy](./assests/deploy-repo.png)
+    - Build failed error? change your build script in package.json to:<br>```"build": "CI= react-scripts build",```
 11. Go to deploy settting to change the domain management to change domain name ![domain name](./assests/domain-name.png)
 10. Add a netlify.toml at the top level (where package.json lives) to handle redirect errors when user refreshes the page. Use your own live link.<br> ![netlify.toml](./assests/redirects.png)
     - There are many ways to handle redirects and to get much fancier. Check out the documentation!
